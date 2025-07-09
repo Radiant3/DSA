@@ -1,0 +1,35 @@
+Two Pointers
+
+Use case - Liner data structure eg - list, linked list & strings
+            Data stored in a pattern such being sorted or a palimdrome
+
+3 Types:
+    1. Convergent 
+        Def: Pointers start from both ends and perform comparisions
+
+        Use case: Compare elements from oppposite ends. 
+        
+        Eg: Identify a palimdrome
+
+    2. Parallel Pointers
+        Def: Both pointers start from the same end and move long.
+             Left pointer tracks progress
+             Right pointer discovers new information
+
+        Eg: sliding window
+     
+    3. Triggered based pointers
+        Def: Right pointers is iterated until a condition is met and then the left pointer iterates to that idx to get more information
+
+
+
+
+Sliding window
+    Iterate over a array or a string to reveal a sub tructure within the data structure that meet a condition such as a substring or sub array
+
+    2 Types:
+        1. Fixed window size
+            Constant length - window size is known alr
+
+        2. Dynamic wind size
+            
